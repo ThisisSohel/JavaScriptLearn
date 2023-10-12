@@ -24,3 +24,28 @@ console.log(type);
 //continue and break
 
 
+console.log('===Only String===');
+
+for(let i = 0; i < sohel.length; i++){
+    if(typeof sohel[i] !== 'string') continue;
+
+    console.log(sohel[i], typeof sohel[i]);
+}
+
+
+console.log('===Only Number===');
+
+for(let i = 0; i < sohel.length; i++){
+    if(typeof sohel[i] === 'number') break;
+
+    console.log(sohel[i], typeof sohel[i]);
+}
+
+
+//while loop
+
+let rep = 1;
+while(rep <= 5){
+    console.log(`Lifting weight repetition ${rep}`);
+    rep++;
+}
