@@ -1,3 +1,4 @@
+//JS Array
 const sohelArray = [
     'sohel',
     'rana',
@@ -6,8 +7,7 @@ const sohelArray = [
     ['Rahim', 'Karim', 'Hamim']
 ];
 
-// Create Object
-
+// JS Object
 
 const sohel = {
     firstName: 'sohel',
